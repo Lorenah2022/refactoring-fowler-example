@@ -15,4 +15,10 @@ public class RegularPrice  extends Price{
 		return result;
 	}
 
+	@Override
+	public int getFrequentRenterPoint(int daysRented) {
+		return 1;
+
+	}
+
 }
