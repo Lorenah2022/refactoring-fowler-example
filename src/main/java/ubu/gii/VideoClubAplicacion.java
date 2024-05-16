@@ -1,4 +1,5 @@
 package ubu.gii;
+
 public class VideoClubAplicacion {
 
 	public static void main(String[] arg) {
@@ -17,6 +18,7 @@ public class VideoClubAplicacion {
 		c1.addRental(r3);
 
 		System.out.println(c1.statement());
+		System.out.println(c1.htmlStatement());
 
 	}
 
